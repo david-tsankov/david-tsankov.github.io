@@ -1,0 +1,10 @@
+title: Math and other projects
+author: David Tsankov
+description: posts about everything
+baseurl: ""
+url: https://david-tsankov.github.io/
+
+#social media
+github_username: david-tsankov
+#build settings
+markdown: kramdown
