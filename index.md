@@ -6,15 +6,21 @@ layout: default
 
 I'll be posting stuff about math and other things
 
-### Still can't fix posts
+### Check ouy my posts:
 
-[**First post**](/2025/08/01/i-hate-markdown)  
-[**Second post**](/2025/08/01/second-post)
+<u1>
+    {% for post in site.posts %}
+        <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            <span>{{ post.date | date: %B %d, %Y }}</span>
+        <li>
+    {% endfor %}
+</u1>
 
-
-#### My about me
+### My about me
 
 [**About me**](/about)
 
 
 [github_username](https://github.com/david-tsankov)
+
