@@ -12,7 +12,7 @@ I'll be posting stuff about math and other things
     {% for post in site.posts %}
         <li>
             <a href="{{ post.url }}">{{ post.title }}</a>
-            <span>{{ post.date | date: %B %d, %Y }}</span>
+            {{ post.date | date: %B %d, %Y }}
         <li>
     {% endfor %}
 </u1>
