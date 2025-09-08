@@ -3,13 +3,9 @@ layout: page
 title: About
 permalink: /about/
 ---
-
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
+Name: David Tsankov  
+Origin: Sofia, Bulgaria  
+Interests: I like math, physics, cycling and calisthenics
 ### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+Discord username: uss_enterprise_  
+email: [david.tsankov@gmail.com](mailto:david.tsankov@gmail.com)
