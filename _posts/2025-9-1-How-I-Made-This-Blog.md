@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How I made (stole) this blog
+tag: Software
 ---
 
 ## And how you can do it too

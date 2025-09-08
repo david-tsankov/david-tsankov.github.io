@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Second post
+tag: Mathematics
 ---
 
 ## This post is about how i skibidi toilet
