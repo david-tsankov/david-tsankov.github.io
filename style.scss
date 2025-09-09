@@ -148,12 +148,12 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
-  background-color: $red;
+  background-color: $idk;
 }
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $red;
+  border-bottom: 1px solid $idk;
 
   @include mobile {
     text-align: center;
@@ -162,8 +162,8 @@ img {
 
 .site-avatar {
   float: left;
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   margin-right: 15px;
 
   @include mobile {
