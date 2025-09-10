@@ -2,7 +2,6 @@
 layout: post
 title: Second post
 tag: Mathematics
-usemathjax: true
 ---
 
 ## This post is about how i skibidi my toilet
