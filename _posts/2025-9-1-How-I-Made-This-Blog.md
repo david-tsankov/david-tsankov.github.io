@@ -56,7 +56,7 @@ You can read the guide in Barry Clarks repo like I did, but I'll write what I di
     
 3. Now that we have cloned the repository and we have installed ruby and all the gems we require we can start modifying the website to our wants
     1. First we need to modify all the variables in the _config.yml, you can check out how to do that in Barry's [tutorial-step-2](https://github.com/barryclark/jekyll-now)
-    2. We then want to commit and push our changes to the remote repository we created (username.github.io), so that github can sense we are making changes and deploy the website to, in my case [david-tsankov.github.io](david-tsankov.github.io)
+    2. We then want to commit and push our changes to the remote repository we created (username.github.io), so that github can sense we are making changes and deploy the website to, in my case [david-tsankov.github.io](https://david-tsankov.github.io/)
         * We can commit in 2 ways, first is to use VSCode's built in GUI and press commit, and then sync changes
         * Second way is through the cli (terminal), you do that by first going into the site directory using *cd*, then run
         ```
