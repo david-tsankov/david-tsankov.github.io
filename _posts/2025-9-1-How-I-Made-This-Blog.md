@@ -79,14 +79,14 @@ You can read the guide in Barry Clarks repo like I did, but I'll write what I di
     Note: NEVER RUN *SUDO GEM INSTALL* ON YOUR SYSTEM RUBY, BAD IDEA, HARD TO CLEAN UP.  
     After that you can check out your website on the ip written after the command, usually *127.0.0.1:4000*
     4. Now that we can run the website locally and have it run on github with no issues, its time to change the contents of the website, this is the hardest part, as while I tried avoiding having to learn html and css, trying to change the contents and look of the website has forced me to gain at least a small idea of how it works. 
-    5. Personally I will be using the website to upload math related content, so I had to find a way to implement math syntax support, I did this by implementing MathJax, by following this [stackoverflow post](https://stackoverflow.com/questions/78365061/where-do-i-insert-the-mathjax-script-so-that-it-renders-on-github-pages-when-i-u)
-    This allows me to write mathematical expressions, as long as they are in between 2$-signs, e.g. 
+    5. Personally I will be using the website to upload math related content, so I had to find a way to implement math syntax support, I did this by implementing MathJax, by following this [stackoverflow post](https://stackoverflow.com/questions/78365061/where-do-i-insert-the-mathjax-script-so-that-it-renders-on-github-pages-when-i-u)  
+    This allows me to write mathematical expressions, as long as they are written in the following way: 
     ```
     \\[y=\frac{x+1}{x-3}\\] (block) \\(y=\frac{x+1}{x-3}\\) (in-line)
     ```
     Is the code for \\(y=\frac{x+1}{x-3}\\) 
     \\[y=\frac{x+1}{x-3}\\] 
-    6. To change the styling of the website you should look at *style.scss* file and check out the different elements of the html and their styling, e.g. go to the style.scss file and scroll down to the .wrapper-footer element, there it has the property *background-colour* that is probably set to $lightGrey, you can change that by substituting $lightGrey with whatever colour you want, by either writing the code of the colour, or creating a variable corresponding to the colour code in *-variables.scss*, you do that by writing the following:
+    6. To change the styling of the website you should look at *style.scss* file and check out the different elements of the html and their styling, e.g. go to the style.scss file and scroll down to the .wrapper-footer element, there it has the property *background-colour* that is probably set to '$lightGrey', you can change that by substituting '$lightGrey' with whatever colour you want, by either writing the code of the colour, or creating a variable corresponding to the colour code in *-variables.scss*, you do that by writing the following:
     ```
     $Colour-name: #52ab98;
     ```
