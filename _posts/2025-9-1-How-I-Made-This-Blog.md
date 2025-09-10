@@ -2,6 +2,7 @@
 layout: post
 title: How I made (stole) this blog
 tag: Software
+comments: true
 ---
 
 ## This post is about how I made, or rather stole this website and how you can do it too. 
