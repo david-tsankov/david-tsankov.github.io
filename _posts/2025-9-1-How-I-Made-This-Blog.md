@@ -47,7 +47,7 @@ You can read the guide in Barry Clarks repo like I did, but I'll write what I di
     ```
     bundle init
     ```
-    This will generate a Gemfile, in which you will then write *gem ""github-pages* (using a text editor like VSCode)
+    This will generate a Gemfile, in which you will then write *gem "github-pages"* (using a text editor like VSCode)
     8. Now that we've written the gem we need in our gemfile, we can go back to the terminal and run
     ```
     bundle install
@@ -85,16 +85,17 @@ You can read the guide in Barry Clarks repo like I did, but I'll write what I di
     \\[y=\frac{x+1}{x-3}\\] (block) \\(y=\frac{x+1}{x-3}\\) (in-line)
     ```
     Is the code for \\(y=\frac{x+1}{x-3}\\) 
-    \\[y=\frac{x+1}{x-3}\\] 
-    6. To change the styling of the website you should look at *style.scss* file and check out the different elements of the html and their styling, e.g. go to the style.scss file and scroll down to the .wrapper-footer element, there it has the property *background-colour* that is probably set to '$lightGrey', you can change that by substituting '$lightGrey' with whatever colour you want, by either writing the code of the colour, or creating a variable corresponding to the colour code in *_variables.scss*, you do that by writing the following:
+    \\[y=\frac{x+1}{x-3}\\]
+
+    6. To change the styling of the website you should look at *style.scss* file and check out the different elements of the html and their styling, e.g. go to the style.scss file and scroll down to the .wrapper-footer element, there it has the property *background-colour* that is probably set to *$lightGrey*, you can change that by substituting *$lightGrey* with whatever colour you want, by either writing the code of the colour, or creating a variable corresponding to the colour code in *_variables.scss*, you do that by writing the following:
     ```
     $Colour-name: #52ab98;
     ```
-    Where the #52ab98 is the colour-code, then you can use the variable *$Colour-name* in place of $lightGrey.  
+    Where the #52ab98 is the colour-code, then you can use the variable *$Colour-name* in place of *$lightGrey*.  
     You can do that for other elements by first checking the html and understanding what each element represents, then going to the style.scss and changing its properties (colour, size, font). Have in mind that if you want to use a font you first have to import it on the top of your style.scss
 
 
 ---
-This concludes the guide, it's not prefectly complete, and is mostly valid about Linux systems, so it would be beneficial if you only use it as a framework rather than a strict step-by-step process as each machine and operating system will behave differently.  
+This concludes the guide, it's not perfectly complete, and is mostly valid about Linux systems, so it would be beneficial if you only use it as a framework rather than a strict step-by-step process as each machine and operating system will behave differently.  
 $$Good \ luck$$ and check out my [github](https://github.com/david-tsankov)
 
