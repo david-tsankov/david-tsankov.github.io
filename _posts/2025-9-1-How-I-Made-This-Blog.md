@@ -86,7 +86,7 @@ You can read the guide in Barry Clarks repo like I did, but I'll write what I di
     ```
     Is the code for \\(y=\frac{x+1}{x-3}\\) 
     \\[y=\frac{x+1}{x-3}\\] 
-    6. To change the styling of the website you should look at *style.scss* file and check out the different elements of the html and their styling, e.g. go to the style.scss file and scroll down to the .wrapper-footer element, there it has the property *background-colour* that is probably set to '$lightGrey', you can change that by substituting '$lightGrey' with whatever colour you want, by either writing the code of the colour, or creating a variable corresponding to the colour code in *-variables.scss*, you do that by writing the following:
+    6. To change the styling of the website you should look at *style.scss* file and check out the different elements of the html and their styling, e.g. go to the style.scss file and scroll down to the .wrapper-footer element, there it has the property *background-colour* that is probably set to '$lightGrey', you can change that by substituting '$lightGrey' with whatever colour you want, by either writing the code of the colour, or creating a variable corresponding to the colour code in *_variables.scss*, you do that by writing the following:
     ```
     $Colour-name: #52ab98;
     ```
