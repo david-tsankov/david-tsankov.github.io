@@ -8,11 +8,9 @@ tag: Mathematics
 
 Before going into what this is about, I will first try to explain a bit about formal logic.
 
-The base of formal logic lies in two assumptions:  
+The base of formal logic lies in two assumptions (and probably more):  
 * [law of excluded middle](https://en.wikipedia.org/wiki/Law_of_excluded_middle), which simply states that a statement can only be true or false
 * the assumption that a statement cannot simultaniously be true and false. 
-
-Both are important as they allow us to form truth tables.
 
 The vacuous truth pops up in a simple conditional:  
 Lets say we have the conditional statement *if P then Q*, (\\(P \to Q\\)), where P and Q are statements that obey the two assumptions, then the truth table would be the following:
