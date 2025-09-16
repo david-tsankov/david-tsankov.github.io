@@ -14,7 +14,7 @@ The base of formal logic lies in two assumptions (and probably more):
 * the assumption that a statement cannot simultaniously be true and false. 
 
 ### What is a statement?
-```math
+```
 A statement is something that can only be true or false, 
 e.g. David is super cool - statement as can either be true or false (most likely true)
 e.g. How do I become cool, David? - not a statement as you can't say if its true or false,  
